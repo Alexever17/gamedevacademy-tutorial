@@ -4,7 +4,7 @@ let gameScene = new Phaser.Scene('Game');
 
 // some parameters for our scene
 gameScene.init = function() {
-  this.playerSpeed = 1.5;
+  this.playerSpeed = 2;
   this.enemySpeed = 2;
   this.enemyMaxY = 280;
   this.enemyMinY = 80;
